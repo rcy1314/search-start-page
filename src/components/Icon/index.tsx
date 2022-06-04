@@ -1,4 +1,4 @@
-import { defineComponent, ref } from 'vue'
+import {defineComponent, ref, watch} from 'vue'
 import './index.css'
 
 export default defineComponent({
@@ -9,7 +9,7 @@ export default defineComponent({
     const id = ref(`#${props.name}`)
     return () => (
       <>
-        <svg class="icon">
+        <svg class="icon-my">
           <use href={id.value} />
         </svg>
 

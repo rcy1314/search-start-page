@@ -1,4 +1,4 @@
-.icon {
+.icon-my {
     width: 2em;
     display: inline-block;
     height: 100%;
@@ -9,10 +9,8 @@
     transition: transform .3s;
     box-sizing: content-box;
     /*Todo 宽度如何hover? */
-
-
 }
 
-.icon:hover {
+.icon-my:hover {
     transform: scale(1.3);
 }

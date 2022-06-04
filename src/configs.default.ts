@@ -9,7 +9,7 @@ export const NavDefaultConfigs = [
     "name": "Twitter",
     "url": "https://twitter.com",
     "icon": "icon-twitter",
-    "color": "#4395ff"
+    "color": "#1D9BF0"
   },
   {
     "name": "YouTube",
@@ -56,7 +56,7 @@ export const NavDefaultConfigs = [
   {
     "name": "MDN",
     "url": "https://developer.mozilla.org/zh-CN",
-    "color": "#83d0f2",
+    "color": "#555",
     "icon": "icon-mdn"
   },
   {
@@ -64,12 +64,6 @@ export const NavDefaultConfigs = [
     "url": "https://translate.google.cn",
     "icon": "icon-6-xinwenfanyizhongxin-fanyi",
     "color": "#4395ff"
-  },
-  {
-    "name": "百度网盘",
-    "url": "https://pan.baidu.com",
-    "color": "#3b8bfe",
-    "icon": "icon-baiduwangpan"
   },
   {
     "name": "Pixiv",
@@ -80,7 +74,7 @@ export const NavDefaultConfigs = [
   {
     "name": "V2EX",
     "url": "https://v2ex.com",
-    "color": "#ccc",
+    "color": "#454545",
     "icon": "icon-vex"
   },
   {
@@ -95,5 +89,10 @@ export const NavDefaultConfigs = [
     "color": "#28a8ea",
     "icon": "icon-onedrive"
   },
+  {
+    "name": "自定义",
+    "color": "#b5bdbe",
+    "icon": "icon-tianjia"
+  }
 
 ]
